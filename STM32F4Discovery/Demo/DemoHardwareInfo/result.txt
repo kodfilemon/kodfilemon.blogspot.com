@@ -1,0 +1,44 @@
+﻿SystemClock: 168000000
+SlowClock: 1000000
+GlitchFilterTime: 20 ms
+PowerLevel: 16
+Uptime: 00:00:02.9007640
+OEMString: Copyright Oberon microsystems, Inc.
+Version: 4.2.0.0
+Total pins:80
+
+I2C pins: scl=PB6 sda=PB9
+
+PWMChannel0: pin=PD12
+PWMChannel1: pin=PD13
+PWMChannel2: pin=PD14
+PWMChannel3: pin=PD15
+PWMChannel4: pin=PE9
+PWMChannel5: pin=PE11
+PWMChannel6: pin=PE13
+PWMChannel7: pin=PE14
+
+AnalogOutputChannel0: pin=PA4 precisions=12
+AnalogOutputChannel1: pin=PA5 precisions=12
+
+AnalogChannel0: pin=PA1 precisions=12
+AnalogChannel1: pin=PA2 precisions=12
+AnalogChannel2: pin=PA3 precisions=12
+AnalogChannel3: pin=PB0 precisions=12
+AnalogChannel4: pin=PB1 precisions=12
+AnalogChannel5: pin=PC4 precisions=12
+AnalogChannel6: pin=PC5 precisions=12
+
+SPI_module1: (msk, miso, mosi)=(PA5, PA6, PA7)
+SPI_module2: (msk, miso, mosi)=(PB13, PB14, PB15)
+SPI_module3: (msk, miso, mosi)=(PC10, PC11, PC12)
+
+COM1: (rx, tx, cts, rts)=(PA10, PA9, PA11, PA12) baud=1281...5250000
+COM2: (rx, tx, cts, rts)=(PA3, PA2, PD3, PA1) baud=640...2625000
+COM3: (rx, tx, cts, rts)=(PD9, PD8, PD11, PD12) baud=640...2625000
+COM4: (rx, tx, cts, rts)=(PC11, PC10, GPIO_NONE, GPIO_NONE) baud=640...2625000
+COM5: (rx, tx, cts, rts)=(PD2, PC12, GPIO_NONE, GPIO_NONE) baud=640...2625000
+COM6: (rx, tx, cts, rts)=(PC7, PC6, GPIO_NONE, GPIO_NONE) baud=1281...5250000
+
+USB0: running
+USB1: stopped
