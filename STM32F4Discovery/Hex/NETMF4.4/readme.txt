@@ -1,4 +1,4 @@
-Toolchain: GCC 4.9.3 by CW2
+Toolchain: GCC 4.9.3 by CW2 (https://github.com/cw2/cw2.github.io/tree/master/downloads)
 
 DeviceInfo:
   HAL build info: 4.4.0.0, STM32F4DISCOVERY by CW2
